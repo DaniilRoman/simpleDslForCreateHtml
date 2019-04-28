@@ -28,4 +28,4 @@ building to abstract syntax tree:
 and it parses using "recursive descent parser algorithm"
 
 Result:
-/home/daniil/Pictures/Screenshot from 2019-04-29 00-31-56.png
+![alt text](https://github.com/DaniilRoman/simpleDslForCreateHtml/blob/master/image.png)
