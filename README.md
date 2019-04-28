@@ -15,6 +15,7 @@ transform to:
 
 building to abstract syntax tree:
 
+```json
 { "val": "→", "type": "op", "expr": 
   [ { "val": "button", "type": "el" }, 
     { "val": "↑", "type": "op", "expr": 
@@ -24,6 +25,7 @@ building to abstract syntax tree:
     } 
   ] 
 }
+```
 
 and it parses using "recursive descent parser algorithm"
 
