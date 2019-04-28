@@ -111,9 +111,9 @@ const compile = ast => {
 
 const evaluate = element => rootEl.appendChild(element);
 
-// const code = 'button → input ↑ p → input ↑ button ↓ p ↓ p';
+// const code = 'button → input ↑ p';
 
-const code = [button, right, input, up, p, right, input, up, button].join(' ');
+const code = [button, right, input, up, p].join(' ');
 console.log(code);
 
 console.log('=======================================');
@@ -127,13 +127,3 @@ console.log(compile(parse(transform(lex(code)))));
 console.log('=======================================');
 console.log(evaluate(compile(parse(transform(lex(code))))));
 console.log('=======================================');
-
-
-
-
-
-
-
-
-
-
