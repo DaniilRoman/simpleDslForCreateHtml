@@ -29,7 +29,7 @@ building to abstract syntax tree:
 }
 ```
 
-and it parses using "recursive descent parser algorithm"
+and it parses using "recursive descent parser"
 
 Result:
 ![alt text](https://github.com/DaniilRoman/simpleDslForCreateHtml/blob/master/image.png)
