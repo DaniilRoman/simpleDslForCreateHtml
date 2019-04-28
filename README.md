@@ -17,13 +17,15 @@ building to abstract syntax tree:
 
 ```json
 { "val": "→", "type": "op", "expr": 
-  [ { "val": "button", "type": "el" }, 
+  [ 
+    { "val": "button", "type": "el" }, 
     { "val": "↑", "type": "op", "expr": 
-      [ { "val": "input", "type": "el" }, 
+      [ 
+        { "val": "input", "type": "el" }, 
         { "val": "p", "type": "el" } 
       ] 
     } 
-  ] 
+  ]
 }
 ```
 
